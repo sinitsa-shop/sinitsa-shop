@@ -30,12 +30,12 @@ const products = [
   },
   {
     id: 2,
-    name: "Футболка белая basic",
-    category: "tshirts",
+    name: "Свитер Gjestal Exclusive",
+    category: "sweaters",
     sizes: ["M"],
-    price: 900,
-    image: "",
-    description: "",
+    price: 4880,
+    image: "/Gjestal Exclusive2",
+    description: "100% норвежская шерсть",
   },
   {
     id: 3,
@@ -105,11 +105,14 @@ function App() {
             <option value="L">L</option>
             <option value="XL">XL</option>
             <option value="XXL">XXL</option>
+            <option value="XXXL">XXXL</option>
 
             {/* для джинсовые размеров */}
             <option value="28">28</option>
             <option value="29">29</option>
             <option value="30">30</option>
+            <option value="31">31</option>
+            <option value="32">32</option>
           </select>
         </label>
       </div>
