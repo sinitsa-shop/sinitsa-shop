@@ -1,0 +1,39 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.topbar__logo-text {
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.08em;
+}
+
+.topbar__cart {
+  position: relative;
+  border: none;
+  background: #222;
+  color: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.topbar__cart-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #ffc800;
+  color: #000;
+  border-radius: 999px;
+  font-size: 10px;
+  padding: 2px 5px;
+}
