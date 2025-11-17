@@ -41,7 +41,7 @@ const products = [
     id: 3,
     name: "Джинсы голубые mom fit",
     category: "jeans",
-    sizes: ["28", "29", "30"],
+    sizes: ["M"],
     price: 1800,
     image: "",
     description: "",
@@ -106,13 +106,7 @@ function App() {
             <option value="XL">XL</option>
             <option value="XXL">XXL</option>
             <option value="XXXL">XXXL</option>
-
-            {/* для джинсовые размеров */}
-            <option value="28">28</option>
-            <option value="29">29</option>
-            <option value="30">30</option>
-            <option value="31">31</option>
-            <option value="32">32</option>
+            
           </select>
         </label>
       </div>
